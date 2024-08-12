@@ -15,3 +15,4 @@ const moduleSchema = new mongoose.Schema({
 }, { collection: "modules" });
 
 export default moduleSchema;
+
