@@ -7,9 +7,9 @@ export default function ModuleRoutes(app) {
     const { courseId } = req.params;
     const { name, ...rest } = req.body;
 
-    if (!name || name.trim() === "") {
-      return res.status(400).json({ message: "Module name cannot be empty." });
-    }
+    // if (!name || name.trim() === "") {
+    //   return res.status(400).json({ message: "Module name cannot be empty." });
+    // }
 
     const newModule = {
       ...req.body,
